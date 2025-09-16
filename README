@@ -1,0 +1,30 @@
+# 🛒 Análisis de Ventas con SQL
+
+Este es mi segundo proyecto de práctica.  
+El objetivo fue trabajar con un dataset ficticio de **200 ventas** (enero-junio 2023) y aplicar consultas SQL para responder preguntas de negocio.
+
+### Dataset
+- `id_venta`: identificador de cada venta
+- `fecha`: fecha de la operación
+- `cliente`: cliente ficticio (Cliente_1 … Cliente_20)
+- `producto`: Laptop, Mouse, Monitor, etc.
+- `cantidad`: unidades vendidas
+- `precio_unitario`: precio por unidad
+- `region`: Norte, Sur, Este, Oeste
+- `total_venta`: cantidad × precio_unitario
+
+### Consultas realizadas
+- Ventas totales
+- Ventas por mes
+- Top 5 productos más vendidos
+- Ticket promedio por cliente
+- Ventas por región
+
+### Archivos en este repositorio
+- `dataset_ventas.csv` → dataset ficticio
+- `consultas.sql` → queries en MySQL
+- Capturas de resultados → ejemplos de la ejecución en MySQL Workbench
+
+---
+
+Este proyecto es parte de mi camino para armar un **portfolio de analista de datos**. 🚀
